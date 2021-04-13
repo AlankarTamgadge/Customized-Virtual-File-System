@@ -791,7 +791,7 @@ void SetEnvironment()
 	CreateDILB();
 	InitialiseSuperBlock();
 
-	printf("Environment for the @Rohan Virtual File System is set...\n");
+	printf("Environment for the Customized Virtual File System is set...\n");
 }
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -803,7 +803,7 @@ int main()
 
 	printf("\n$$$$$$$$$$$$$$$$$$$$$$$__________Om Sai Ram__________$$$$$$$$$$$$$$$$$$$$$$$$\n\n");
 	printf("\t\t\t\t   Welcome to");
-	printf("\n________________________ @Rohan Virtual File System ________________________\n\n");
+	printf("\n________________________ Customized Virtual File System ________________________\n\n");
 	SetEnvironment();
 
 	//------------------------------------------------------------------------------------------------------------------------------
@@ -812,7 +812,7 @@ int main()
 		fflush(stdin);
 		strcpy(str, "");
 
-		printf("\n@Rohan's VFS : >");
+		printf("\nCustomized VFS : > ");
 		printf(" ");
 		fgets(str, 80, stdin);
 		//scanf("%[^'\n']s",str);
@@ -847,13 +847,13 @@ int main()
 			{
 				char ch = '\0';
 
-				printf("\nAre you sure to exit this Rohan VFS ?(Y/N)\n");
+				printf("\nAre you sure to exit this Customized VFS ?(Y/N)\n");
 				scanf("%c", &ch);
 				if (ch == 'Y' || ch == 'y')
 				{
 					printf("\t\t\t\t   THANK YOU");
 					printf("\n__________________________ FOR USING THIS APPLICATION __________________________\n\n");
-					printf("$$$$$$$$$$$_____ Terminating the @Rohan Virtual File System _____$$$$$$$$$$$\n\n");
+					printf("$$$$$$$$$$$_____ Terminating the Customized Virtual File System _____$$$$$$$$$$$\n\n");
 
 					break;
 				}
